@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rookie 2021</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="./common.css" rel="stylesheet" />
+    <link href="./reservation-detail.css" rel="stylesheet" />
+</head>
+
+<body>
+    <header>
+        <nav class="gnb">
+            <div class="main-menu">
+                <a href="./main.html" class="logo">
+                    <img width="125px" src="https://nhn.com/renewal/img/logo.png" alt="logo">
+                </a>
+                <a href="./main.html" class="main-link">콘서트</a>
+                <a href="./main.html" class="main-link">뮤지컬</a>
+                <a href="./main.html" class="main-link">연극</a>
+            </div>
+            <ul class="user-gnb">
+                <li><a href="./login.html">로그인</a></li>
+                <li><a href="./my-page.html">마이페이지</a></li>
+                <li><a href="./my-page.html">고객센터</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="screen-main">
+            <h1 class="screen-title">좌석 선택</h1>
+            <section class="screen-wrap">
+                <section class="screen-box">
+                    <div class="screen-header">
+                        <div class="screen-header-button">
+                            <h2>관람인원선택</h2>
+                            <button class="refresh-btn">
+                        <span class="material-icons">
+                            refresh</span>초기화
+                        </button>
+                        </div>
+                        <div class="select-number-box">
+                            <div class="select-number">
+                                <span>성인</span>
+                                <button class="minus-btn">-</button>
+                                <input type="number" value="0" max="9">
+                                <button class="plus-btn">+</button>
+                            </div>
+                            <div class="select-number">
+                                <span>청소년</span>
+                                <button class="minus-btn">-</button>
+                                <input type="number" value="0" max="9">
+                                <button class="plus-btn">+</button>
+                            </div>
+                            <div class="select-number">
+                                <span>우대</span>
+                                <button class="minus-btn">-</button>
+                                <input type="number" value="0" max="9">
+                                <button class="plus-btn">+</button>
+                            </div>
+                        </div>
+                    </div>
+                    <section class="screen-seat-box">
+                        <div>
+                            <div class="row">
+                                <div class="seat-title">A</div>
+                                <div class="seats">
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="seat-title">B</div>
+                                <div class="seats">
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button class="selected"></button>
+                                    <button class="selected"></button>
+                                    <button class="selected"></button>
+                                    <button class="selected"></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="seat-title">C</div>
+                                <div class="seats">
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="seat-title">D</div>
+                                <div class="seats">
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="seat-title">E</div>
+                                <div class="seats">
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="seat-title">F</div>
+                                <div class="seats">
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="seat-title">G</div>
+                                <div class="seats">
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="seat-title">H</div>
+                                <div class="seats">
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="seat-title">I</div>
+                                <div class="seats">
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="seat-title">J</div>
+                                <div class="seats">
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="seat-title">K</div>
+                                <div class="seats">
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                    <button></button>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </section>
+                <section class="selected-box">
+                    <section class="selected-event">
+                        <span class="age-badge">15</span>
+                        <h4 class="event-title">공연각</h4>
+                        <div class="event-type">2D</div>
+                    </section>
+                    <section class="selected-event-detail">
+                        <ul>
+                            <li>우리금융아트홀</li>
+                            <li>4관</li>
+                            <li>2021.02.28(목)</li>
+                            <li>10:40~12:45</li>
+                        </ul>
+                        <img width="70" src="https://ticketimage.interpark.com/Play/image/large/20/20010029_p.gif">
+                    </section>
+                    <section class="selected-seat">
+                        <h4>선택좌석</h4>
+                        <div class="selected">B5</div>
+                        <div class="selected">B6</div>
+                        <div class="selected">B7</div>
+                        <div class="selected">B8</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                    </section>
+                    <section class="selected-account">
+                        <div class="selected-account-count">청소년 4</div>
+                        <div class="selected-account-total">최종결제금액<span><span class="number">24,000</span>원</span>
+                        </div>
+                    </section>
+                    <section class="button-box">
+                        <!-- 실제로는 버튼 태그가 좋음  -->
+                        <a href="./reservation.html">이전</a>
+                        <a href="./mypage.html">다음</a>
+                    </section>
+                </section>
+            </section>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-inner">
+            <ul class="legal-lst">
+                <li class="legal-item">
+                    <a href="https://www.nhn.com/footer/proposal/proposalRegister.nhn" class="legal-link" target="_blank">제휴제안</a>
+                </li>
+                <li class="legal-item">
+                    <a href="https://nhn.com/ko/company/companyEthics.nhn" class="legal-link" target="_blank">기업윤리</a>
+                </li>
+                <li class="legal-item">
+                    <a href="https://www.nhn.com/footer/privacy/privacy.nhn" class="legal-link" target="_blank"><strong>개인정보 처리방침</strong></a>
+                </li>
+            </ul>
+            <p class="copyright">© NHN Corp. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
