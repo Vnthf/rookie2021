@@ -1,0 +1,105 @@
+main {
+    max-width: 1064px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.poster-header {
+    height: 73px;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+
+.poster-header h1 {
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.poster-header .poster-status-badge {
+    display: inline-block;
+    font-size: 12px;
+    height: 24px;
+    line-height: 22px;
+    color: #666;
+    padding: 0 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.poster-main {
+    display: flex;
+}
+
+.poster-summary {
+    margin-left: 50px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+.poster-summary li {
+    margin-bottom: 20px;
+}
+
+.poster-summary li:last-child {
+    margin-bottom: 0;
+}
+
+.poster-summary label {
+    width: 60px;
+    display: inline-block;
+}
+
+.poster-summary .desc {
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.reservation-btn {
+    display: inline-block;
+    width: 340px;
+    height: 55px;
+    line-height: 55px;
+    margin-top: 50px;
+    border: 0;
+    text-align: center;
+    background: #2973fe;
+    border-radius: 10px;
+    color: #fff;
+    transition: background-color 0.2s;
+}
+
+.reservation-btn:hover {
+    background: #015aff;
+}
+
+.content-main {
+    margin-top: 40px;
+}
+
+.content-main-tab-title {
+    font-size: 16px;
+    font-weight: 500;
+    height: 57px;
+    line-height: 57px;
+    padding: 0 5px;
+    border-bottom: 5px solid #333;
+    display: inline-block;
+}
+
+.content-main-tab-pane {
+    border-top: 1px solid #b6bdc7;
+}
+
+.content-title {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.content-detail {
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 80px;
+}
